@@ -1,0 +1,163 @@
+/* 🌍 Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: url('assets/cafe-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 12px;
+}
+
+/* 🟦 Navbar */
+nav {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav .right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  color: #ffdd57;
+  transform: scale(1.1);
+}
+
+/* 🔎 Search bar */
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+
+.search-box button {
+  background: #ffdd57;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.search-box button:hover {
+  background: #ffc107;
+}
+
+.btn {
+  display: block;
+  width: 200px;
+  padding: 12px 20px;
+  margin: 14px auto;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #ff6f61; /* peach-orange */
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #e85a50;
+}
+
+.btn-secondary {
+  background-color: #3e1f47; /* maroon */
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #2a142f;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #565e64;
+}
+
+/* 📝 Typography */
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* 🏷️ Place cards */
+.place-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.place-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.place-card h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+body {
+  background: url('assets/coffee-shop.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

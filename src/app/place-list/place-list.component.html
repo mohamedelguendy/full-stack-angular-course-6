@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Nearby Places</h2>
+
+  <div *ngFor="let place of places" class="place-card">
+    <h3>{{ place.name }}</h3>
+    <p><strong>Category:</strong> {{ place.category }}</p>
+    <p><strong>Location:</strong> {{ place.location }}</p>
+    <p>{{ place.description }}</p>
+    <button class="btn btn-primary">View on Map</button>
+  </div>
+</div>
+

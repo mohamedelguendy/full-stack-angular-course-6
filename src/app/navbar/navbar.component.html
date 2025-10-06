@@ -1,0 +1,25 @@
+<nav>
+  <div class="left">
+    <a routerLink="/">Home</a>
+    <a routerLink="/places">Places</a>
+    <a routerLink="/about">About</a>
+    <a routerLink="/contact">Contact</a>
+
+    <!-- 🔎 Search bar -->
+    <div class="search-box">
+      <input type="text" placeholder="Search places...">
+      <button>Go</button>
+    </div>
+  </div>
+
+  <!-- ⚙️ Settings Dropdown -->
+  <div class="settings">
+    <button class="settings-btn" (click)="toggleDropdown()">⚙️ Settings</button>
+    <div class="dropdown" *ngIf="dropdownOpen">
+      <a href="#">Account Info</a>
+      <a href="#">Login</a>
+      <a href="#">Logout</a>
+      <a href="#">Help</a>
+    </div>
+  </div>
+</nav>
